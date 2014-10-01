@@ -1,0 +1,320 @@
+/* line 7, c:/Users/ian/Desktop/NWFirstAid/sass/general.sass */
+body {
+  font-family: Times New Roman, Lucida Sans Unicode, Lucida Grande, sans-serif;
+  background-color: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: red;
+}
+
+
+#titleAreaA {
+  text-decoration: none;
+}
+
+
+/* line 13, c:/Users/ian/Desktop/NWFirstAid/sass/general.sass */
+.maincontent {
+  max-width: 800px;
+  padding-top: 5px;
+  margin: 0 auto auto auto;
+}
+
+.header {
+  border: 0px solid #000;
+}
+
+/* line 21, c:/Users/ian/Desktop/NWFirstAid/sass/general.sass */
+.title-area {
+  background-image: url("../img/NWFAT_Banner.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-color: none;
+  /*height: 170px;*/
+}
+
+
+/* line 42, c:/Users/ian/Desktop/NWFirstAid/sass/general.sass */
+.brand-text {
+  background-color: none;
+  color: #757676;
+  line-height: 30px;
+  padding-top: 55px;
+  padding-left: 270px;
+}
+/* line 50, c:/Users/ian/Desktop/NWFirstAid/sass/general.sass */
+.brand-text h1 {
+  margin: 0;
+}
+/* line 55, c:/Users/ian/Desktop/NWFirstAid/sass/general.sass */
+.brand-text .title-brand {
+  overflow: hidden;
+  line-height: 40px;
+}
+/* line 57, c:/Users/ian/Desktop/NWFirstAid/sass/general.sass */
+.brand-text .sub-title-brand {
+  color: #e4322c;
+  margin-top: 0;
+  overflow: hidden;
+}
+
+/* line 65, c:/Users/ian/Desktop/NWFirstAid/sass/general.sass */
+.nav-bar {
+  padding: 0;
+}
+/* line 75, c:/Users/ian/Desktop/NWFirstAid/sass/general.sass */
+.nav-bar ul {
+  text-align: right;
+  margin-top: 30px;
+}
+/* line 78, c:/Users/ian/Desktop/NWFirstAid/sass/general.sass */
+.nav-bar ul li {
+  list-style-type: none;
+  font-size: 12px;
+  display: inline;
+  background-color: none;
+}
+/* line 85, c:/Users/ian/Desktop/NWFirstAid/sass/general.sass */
+.nav-bar ul li a {
+  color: #2e4f8f;
+  text-decoration: none;
+  padding: 16px;
+  padding-top: 18px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+/* line 93, c:/Users/ian/Desktop/NWFirstAid/sass/general.sass */
+.nav-bar ul li a:hover {
+  color: red;
+
+}
+.nav-bar ul li a.active {
+  border-bottom: 2px solid red;
+  color: #FF0000;
+}
+
+
+/* line 98, c:/Users/ian/Desktop/NWFirstAid/sass/general.sass */
+.specific-content {
+  overflow: hidden;
+  padding: 15px 25px 10px 25px;
+}
+/* line 101, c:/Users/ian/Desktop/NWFirstAid/sass/general.sass */
+.specific-content .spec-inner {
+  padding: 0px;
+}
+/* line 104, c:/Users/ian/Desktop/NWFirstAid/sass/general.sass */
+.specific-content .spec-inner .serv-right {
+  color: #2e4f8f;
+  padding: 10px;
+  text-align: right;
+}
+/* line 110, c:/Users/ian/Desktop/NWFirstAid/sass/general.sass */
+.specific-content .spec-inner .serv-left {
+  color: #2e4f8f;
+  padding: 10px;
+  text-align: left;
+}
+/* line 116, c:/Users/ian/Desktop/NWFirstAid/sass/general.sass */
+.specific-content .spec-inner h2 {
+  letter-spacing: 2px;
+}
+
+/* line 119, c:/Users/ian/Desktop/NWFirstAid/sass/general.sass */
+.footer {
+  text-align: center;
+  border-top: 1px solid black;
+  font-size: 12px;
+  margin-top: 50px;
+}
+
+.pageTitle {
+  color: #757676;
+}
+
+/* Contact Page */
+.left-col {
+  display: inline-block;
+}
+
+.right-col {
+  display: inline-block;
+}
+
+.emailLink {
+  margin-left: 20px;
+}
+
+input[type=text], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+ 
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(250, 0, 0, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(250, 0, 0, 1);
+}
+
+/* Footer */
+.sitemap {
+  overflow: hidden; 
+  padding: 10px; 
+  margin: auto; 
+  float: left; 
+  text-align: left;
+}
+
+.sitemapSection {
+  float: left; 
+  min-height: 125px; 
+  margin: 0 30px 0 30px;
+}
+
+.sitemapSection > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.copyright {
+  clear: both;
+
+}
+.digitalPresence {
+  float: right; 
+  margin-right: 40px; 
+  margin-top: 10px;
+}
+
+.digitalPresence > ul {
+  list-style-type: none;
+}
+
+.digitalPresence > ul > li {
+  display: inline; 
+  padding: 5px;
+}
+.digitalPresence > ul > li > a > img {
+  width:25px;
+}
+
+/* Services Page */
+.aService {
+  margin-top: 65px;
+}
+
+.aService p {
+  font-size: 14px;
+  line-height: 1.5em;
+  text-align: justify;
+  text-indent: 40px;
+}
+
+.aService ul {
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+.aService h3 {
+  color: red;
+}
+
+.serviceList {
+
+}
+
+.serviceList ul {
+  line-height: 35px;
+}
+
+.serviceList ul li {
+  list-style-type: none;
+  background-image: url('../img/list-type-cross.jpg');
+  background-position: 0px 9px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+.serviceList ul li a {
+  color: #2e4f8f;
+}
+
+.serviceList ul li a:hover {
+  color: #FF0000;
+}
+/*
+.serviceList ul li a:visited {
+  color: #8B0000;
+}*/
+
+.linkToSchedule {
+  margin-left: 15px;
+  color: #2e4f8f;
+}
+
+.linkToSchedule:hover {
+  color: #FF0000;
+}
+.calimage {
+  display: inline;
+  vertical-align: middle;
+}
+
+
+@media screen and (max-width: 500px) {
+
+  .header {
+    height: 320px;
+  }
+  .brand-text {
+    background-color: none;
+    color: #757676;
+    line-height: 30px;
+    padding-top: 150px;
+    padding-left: 0;
+
+  }
+
+  .spec-inner > p {
+    padding: 0 20px;
+  }
+
+  .nav-bar {
+    height: 50px;
+    padding: 10px 25px;
+  }
+
+  .nav-bar ul {
+    margin: 0 auto;
+    float: left;
+    padding: 0;
+  }
+
+  .nav-bar ul li a {
+    padding: 10px;
+  }
+  .specific-content {
+    
+  }
+  .title-brand {
+    text-align: center;
+    margin: auto;
+  }
+  .sub-title-brand {
+    text-align: center;
+  }
+  .pageTitle {
+    display: none;
+  }
+
+}
